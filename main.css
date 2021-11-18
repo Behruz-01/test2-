@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  {
+    width: 1160px;
+    margin: auto;
+
+}
+
+.navbar{
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    top: 0;
+}
+
+.pixar{
+
+}
+
+.pixar > a{
+    text-decoration: none;
+    color: #191919;
+    padding: 7px;
+}
+    
+
+.pixar > a:hover{
+    border-bottom: 1px solid black;
+}
+
+.pixar > a:active{
+    background: rgba(25, 25, 25, 0.7);
+    color: white;
+    border-bottom: white;
+}
+
+
+
+.box{
+
+}
+
+.box2{
+    display: flex;
+    margin-left: 350px;
+}
+
+.box3{
+    margin: 7px;
+    list-style: none;
+    
+}
+
+.box3 > a{
+    text-decoration: none;
+    color: black;
+    
+    padding: 5px;
+}
+
+.box3 > a:hover{
+    border-bottom: 1px solid black;
+    /* background: rgba(25, 25, 25, 0.7);
+    transition: 1s ease-in-out;
+    border-bottom: white; */
+}
+
+.box3 > a:active{
+    background: rgba(25, 25, 25, 0.7);
+    border-bottom: white;
+    color: white ;
+
+}
+    
+
+.link{
+    margin-left: 40px;
+    background-color: #00BAFC;
+    padding: 10px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.link:hover{
+    background-color:#087ca7 ;
+}
+
+.header-rezume{
+    display: flex;
+    margin: 40px 40px;
+}
+
+.rezume1{
+    width: 465px;
+    height: 74px;
+}
+
+.rezume2{
+    margin-left: 60px;
+}
+
+.text{
+
+}
+
+.basic{
+    text-align: center;
+}
+
+.text2{
+    width: 719px;
+    margin-left: 190px;
+}
+
+.box-rezume{
+    display: flex;
+    justify-content: center;
+}
+
+.box-rezume2{
+    padding: 10px;
+    margin: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rezume3{
+    text-align: center;
+}
+
+.box-rezume3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-rezume4{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.p{
+    display: inline-block;
+    align-items: center;
+}
+
+.link2{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 8px 10px;
+    background-color: #00BAFC;
+    margin: 10px;
+}
+
+.button > a{
+    color: white;
+    text-decoration: none;
+}
+
+.button :hover{
+    color: #00BAFC;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+.button2{
+    margin-top: 17px;
+}
+
+.button2 > a{
+    text-decoration: none;
+    color:#00BAFC ;
+}
+
+.basic2{
+    text-align: center;
+    
+}
+
+.basic3{
+    width: 719px;
+    margin-left: 300px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+} 
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 40px;
+}
+    
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-right: 40px;
+}
+
+
+.link3{
+    display: flex;
+    justify-content: center;
+}
+
+.link3 > a{
+    
+    color: white;
+    border-radius: 5px;
+    text-decoration:none;
+    padding: 8px 10px;
+    background-color:#00BAFC ;
+}
+
+.link3 a:hover{
+    background-color: #1fa8da;
+    transition: 1s ease-in-out;
+}
+
+.link3 > a:active{
+    background: 0065FC;
+}
+
+
+/* dropdown */
+
+.drop{
+    margin-top: 30px;
+    width: 100%;
+    height: 543px;
+    background: #00BAFC;
+}
+
+.basic4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    
+    width: 348px;
+    height: 304px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.dropdown2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact-input{
+    background-color: rgba(223, 210, 210, 0.822);
+    margin: 5px 0;
+    width: 100%;
+    color: black;
+    padding: 16px;
+    
+}
+
+.selection{
+    background-color: rgba(223, 210, 210, 0.822);
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    color: rgb(82, 81, 81);
+    
+}
+
+
+/* footer */
+
+.continer{
+ background-color: rgba(0, 0, 0, 0.575);
+ display: flex;
+ justify-content: center;
+}
+
+.foot1{
+    width: 320px;
+    
+}
+
+.foot2{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.foot3{
+    margin-left: 5px;
+}
+
+
+.ul{
+    list-style: none;
+}
+
+
+
